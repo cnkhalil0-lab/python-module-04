@@ -30,4 +30,7 @@ def ft_crisis_response():
 
 
 if __name__ == "__main__":
-    ft_crisis_response()
+    try:
+        ft_crisis_response()
+    except Exception as e:
+        print(f'Erro: {e}')

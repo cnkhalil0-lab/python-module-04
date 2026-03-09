@@ -20,4 +20,7 @@ def ft_vault_security():
 
 
 if __name__ == "__main__":
-    ft_vault_security()
+    try:
+        ft_vault_security()
+    except Exception as e:
+        print(f"Erro: {e}")
